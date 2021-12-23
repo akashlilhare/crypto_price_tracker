@@ -21,7 +21,7 @@ class Coin {
       name: json['name'],
       symbol: json['symbol'],
       imageUrl: json['image'],
-      price: json['current_price'],
+       price: json['current_price'],
       change: json['price_change_24h'],
       changePercentage: json['price_change_percentage_24h'],
     );
