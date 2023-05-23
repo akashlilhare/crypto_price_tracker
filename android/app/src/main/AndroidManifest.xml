@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.crypro_tracker">
-   <application
-        android:label="crypro_tracker"
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:label="crypto price tarcker"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

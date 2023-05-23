@@ -13,7 +13,7 @@ class Coin {
   String symbol;
   String imageUrl;
   num price;
-  num change;
+  num? change;
   num changePercentage;
 
   factory Coin.fromJson(Map<String, dynamic> json) {
